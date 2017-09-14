@@ -26,7 +26,7 @@ namespace WPFTrackPlanner
             InitializeComponent();
         }
 
-        Circuit circuit = new Circuit()
+        private Circuit circuit = new Circuit()
         {
             Name = "Prvni okruh"
         };
